@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    Student Profile form
+    </title>
+    </head>
+    <body>
+        <h3>
+        Student Information Form
+        </h3>
+<br><br>
+        <form>
+        <lable>
+            Name (Minimum: 4 Characters, Maximum: 10 Characters):
+            </lable>
+            <input type="text" name="Name" required minlength="4" maxlength="10" size="10"/>
+            <br><br>
+            <label>
+            Age
+            </label>
+            <input type="text" name="Age" requier minlenght="1" maxlength="2" size="2"/>
+            <br><br>
+            <label>
+            Course:
+            </label>
+            <select>
+                <option value="Select">Select</option>
+            <option value="CSE (AI&ML)" cols="10">CSE (AI-ML)</option>
+                <option value="CSE (Health info.)" cols="10">CSE (Health info.)</option>
+                <option value="CSE (Gaming Development)" cols="10">CSE (Gaming Development)</option>
+                <option value="CSE (Cyber Security)" cols="10">CSE (Cyber Security)</option>
+            </select> 
+            <br><br>
+            <label>
+            Gender:
+            </label>
+            <select>
+            <option value="Select" cols="10">Select</option>
+                <option value="Male" cols="10">Male</option>
+                <option value="Female" cols="10">Female</option>
+                <option value="other" cols="10">Other</option>
+            </select>
+            <br><br>
+            <label>
+            Mail Id
+            </label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label>Phone:</label>
+            <input type="text" name="phone" size="10">
+            <br><br>
+            <lable>
+            Address:
+            </lable>
+            <textarea cols="80" rows="5" value="address">
+            </textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
